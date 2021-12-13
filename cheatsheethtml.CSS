@@ -1,4 +1,4 @@
-*{
+
   margin: 20px;
   padding: 10px;
 }
@@ -346,6 +346,10 @@ textarea.input {
   .text {
     margin: 1rem 0 1.5rem 0;
   }
+
+  .social-media {
+    padding: 1.5rem 0 0 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -367,7 +371,25 @@ textarea.input {
     padding: 1.7rem 1.6rem;
   }
 
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
 
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
 
   .input {
     padding: 0.45rem 1.2rem;
